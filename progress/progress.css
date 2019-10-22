@@ -1,0 +1,22 @@
+#scrolly {
+	position: relative;
+}
+
+article {
+	position: relative;
+	padding: 0 1rem;
+	margin: 0 auto;
+	width: 33%;
+}
+
+.step {
+	margin: 2rem auto 4rem auto;
+	padding: 1rem;
+	border: 2px solid #f3f3f3;
+}
+
+.step p {
+	text-align: center;
+	margin: 0.5rem auto;
+	font-size: 1.5rem;
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="all.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="alert alert-primary" role="alert">
+                <h4 class="alert-heading">Scrollama Summary</h4>
+                <hr>
+                <p>Hi!</p>
+                <p>First disclaimer: the attached examples are the ones from the scrollama website. I just split them out and removed all internal references so that they'd operate as stand alones and the code could be more easily understood.</p>
+                <p>Okay, so (assuming I'm understanding correctly), scrollama is pretty straight forward: it is a listening device for scrolling. So you set a line on the page and then listen for when scrolled items cross that line. </p>
+                <p>When in development mode, this line can be set to visible -- which it is in all of the examples below. </p>
+                <p>The power of scrollama is listening to the relationahip between the scrolling items and this customizable line. I'm not sure if this is comprehensive, but you can know:
+                    <ul>
+                        <li> when scrolled items first overlap the line ("onStepEnter")</li>
+                        <li> when scrolled items are no longer overlapping the line ("onStepExit")</li>
+                        <li> the % that the scrolled item is overlapped by the line ("onStepProgress")</li>
+                    </ul>
+                    <p> These examples are all dependent on interaction-objsever.js and two of them use stickyfill.js. D3 is also used in two of them but unlike the other two in the previous sentence, we could swap this out if you didn't want to use this.</p>
+                    <p>Here are the examples:
+                        <ul>
+                            <li><a href="./basic.html">basic</a></li>
+                            <li><a href="./progress.html">progress</a></li>
+                            <li><a href="./stickySide.html">sticky side</a></li>
+                            <li><a href="./stickyOverlay.html">sticky overlay</a></li>
+                        </ul>
+                    </p>
+                    <p>If you want to walk through these example by example I am available any time.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
